@@ -56,7 +56,6 @@ def find_afterparties():
 
     # data = {'Test': ['This is just some test data']}
     # events = []
-
     return render_template('afterparty-search-results.html',
                            pformat=pformat,
                            data=data,
